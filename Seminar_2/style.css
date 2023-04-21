@@ -1,0 +1,56 @@
+/*
+body{
+    background-color: bisque;
+}
+
+
+.red{
+    color: brown;
+    margin:auto
+}
+
+.p1{
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.site-header {
+    
+    height: 125px;           /*высота*/
+   /* margin-bottom: 10px;    /*отступ от нижнего края блока от других дальнейших разделов*/
+   /* padding-top: 50px;       /* отступ текста от верхнегокрая блока*/
+   /* background-size:cover;  /*размер блока полностью закрывается картинкой - cover*/
+    
+    /*background: no-repeat center url(images/1662963293_s-97.jpg);
+  }
+
+.container{
+    width: 350px;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+
+*/
+
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('fonts/caviar_dreams.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/caviar_dreams.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/caviar_dreams.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/caviar_dreams.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.textH{
+    text-align: center;
+    color: brown;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size:  1.4rem;
+}
+
+img{
+    width: 80vh;  /*20% высоты картинки*/
+    margin-left: 50px;    /*отодвинули от левого края*/
+}
+
