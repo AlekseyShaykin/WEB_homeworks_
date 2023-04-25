@@ -1,0 +1,86 @@
+/*
+body{
+    background-color: bisque;
+}
+
+
+.red{
+    color: brown;
+    margin:auto
+}
+
+.p1{
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.site-header {
+    
+    height: 125px;           /*высота*/
+   /* margin-bottom: 10px;    /*отступ от нижнего края блока от других дальнейших разделов*/
+   /* padding-top: 50px;       /* отступ текста от верхнегокрая блока*/
+   /* background-size:cover;  /*размер блока полностью закрывается картинкой - cover*/
+    
+    /*background: no-repeat center url(images/1662963293_s-97.jpg);
+  }
+
+.container{
+    width: 350px;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+
+*/
+
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('fonts/caviar_dreams.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/caviar_dreams.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/caviar_dreams.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/caviar_dreams.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+.textH{
+    text-align: center;
+    color: brown;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size:  2.5rem;
+}
+
+img{
+    width: 80vh;  /*20% высоты картинки*/
+    margin-left: 50px;    /*отодвинули от левого края*/
+}
+
+body{
+    font-family: 'Caviar Dreams';
+}
+
+p{
+    font-size: 2.5rem;
+    margin-left: 100px;
+}
+
+
+.site-header {
+    min-width: 550px;
+    height: 225px;           /*высота*/
+    margin-bottom: 10px;    /*отступ от нижнего края блока от других дальнейших разделов*/
+    padding-top: 50px;       /* ВЫСОТА  блока*/
+   /* background: #847462 no-repeat center url("https://www.photosteklo.ru/wp-content/uploads/2020/10/6225.jpg");*/
+    background-size:cover;  /*размер блока полностью закрывается картинкой - cover*/
+    /*color: #ffffff17;   /* цвет текста в блоке*/ 
+    background-color: aquamarine;  
+    background-image: url("https://www.photosteklo.ru/wp-content/uploads/2020/10/6225.jpg"); 
+       
+  }
+/* 
+  .block{
+    margin-top: 20px;
+    width: 100px;
+    height: 800px;
+    background-color: blue;
+  } */
