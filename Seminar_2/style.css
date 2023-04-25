@@ -42,11 +42,12 @@ body{
 		url('fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
+
 .textH{
     text-align: center;
     color: brown;
     font-family: 'Caviar Dreams', sans-serif;
-    font-size:  1.4rem;
+    font-size:  2.5rem;
 }
 
 img{
@@ -54,3 +55,32 @@ img{
     margin-left: 50px;    /*отодвинули от левого края*/
 }
 
+body{
+    font-family: 'Caviar Dreams';
+}
+
+p{
+    font-size: 2.5rem;
+    margin-left: 100px;
+}
+
+
+.site-header {
+    min-width: 550px;
+    height: 225px;           /*высота*/
+    margin-bottom: 10px;    /*отступ от нижнего края блока от других дальнейших разделов*/
+    padding-top: 50px;       /* ВЫСОТА  блока*/
+   /* background: #847462 no-repeat center url("https://www.photosteklo.ru/wp-content/uploads/2020/10/6225.jpg");*/
+    background-size:cover;  /*размер блока полностью закрывается картинкой - cover*/
+    /*color: #ffffff17;   /* цвет текста в блоке*/ 
+    background-color: aquamarine;  
+    background-image: url("https://www.photosteklo.ru/wp-content/uploads/2020/10/6225.jpg"); 
+       
+  }
+/* 
+  .block{
+    margin-top: 20px;
+    width: 100px;
+    height: 800px;
+    background-color: blue;
+  } */
